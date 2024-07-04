@@ -78,7 +78,7 @@ const tabs = [
 ]
 const NavBar = () => {
   const [open, setOpen] = useState(false);
-  const [hoverIndex, setHoverIndex] = useState(1);
+  const [hoverIndex, setHoverIndex] = useState(-1);
 
   const openFn = () => {
     setOpen(false)
